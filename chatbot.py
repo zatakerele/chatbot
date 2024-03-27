@@ -8,10 +8,10 @@ import warnings
 warnings.filterwarnings('ignore')
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
-# download required NTLK data 
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('wordnet')
+#download required NTLK data 
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 
 st.markdown("<h1 style = 'color: #5F5D9C; text-align: center; font-family: helvetica'> ORGANIZATIONAL CHATBOT</h1>", unsafe_allow_html = True)
